@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Carga de bootstrap -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body class="bg-dark">
+    <!-- HEADER + NAVBAR -->
+    <header class="barra">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/icons/airplane-engines-fill.svg" alt="" width="30" height="24"
+                        class="d-inline-block align-text-top">
+                    Aeroflot
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Productos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Más
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Marcas</a></li>
+                                <li><a class="dropdown-item" href="#">Sobre nosotros</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Contactanos</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- MAIN -->
+    <main class="container-xxl bg-light shadow-sm">
+        <!-- HERO  -->
+        <section class="hero">
+            <h2 class="fw-bold text-center mb-4 pt-3">MODEL KITS </h2>
+
+            <div class="row align-items-center gy-4">
+                <div class="col-lg-6">
+                    <img src="./assets/img/tomcat.jpg" class="w-100 hero-img" alt="imagen">
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-box">
+                        <h3 class="fw-bold">El mundo de los modelos....</h3>
+                        <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, dolorum fuga
+                            alias dignissimos, natus atque dolor omnis necessitatibus magnam tempore iure cumque
+                            dolore
+                            soluta saepe cum a repellendus doloremque laboriosam!</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-5">
+        </section>
+        <!-- CARRUSEL -->
+        <section class="carrusel">
+
+            <h2 class="fw-bold text-center mb-4">Ejemplos </h2>
+
+            <div id="demoCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner rounded-4">
+                    <div class="carousel-item active">
+                        <img src="./assets/img/Horten.webp" class="d-block w-100" alt="slide1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/Spitfire.webp" class="d-block w-100" alt="slide2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/Lancaster.webp" class="d-block w-100" alt="slide3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#demoCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demoCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
+            <hr class="my-5">
+
+        </section>
+        <!-- CARDS -->
+        <section class="cards">
+
+            <h2 class="fw-bold text-center mb-4">Productos</h2>
+
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 text-center">
+                        <img src="./assets/img/Producto1.webp" class="card-img-top" alt="img">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Maqueta Fairey Gannet AS.1-AS.4</h5>
+                            <p class="card-text flex-grow-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ducimus neque recusandae laborum reprehenderit dignissimos, error suscipit praesentium nesciunt, nihil corrupti veniam. Recusandae dolor aut corporis culpa id architecto sunt!</p>
+                            <a href="#" class="btn btn-primary mt-2">Botón</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 text-center">
+                        <img src="./assets/img/Producto2.webp" class="card-img-top" alt="img">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Panavia Tornado IDS "50 años"</h5>
+                            <p class="card-text flex-grow-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae dolorum minus deserunt quas impedit quo odio incidunt. Eius quos quasi, placeat cum rem repellat ratione nostrum itaque saepe laudantium rerum.</p>
+                            <a href="#" class="btn btn-primary mt-2">Botón</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 text-center">
+                        <img src="./assets/img/Producto3.webp" class="card-img-top" alt="img">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Defensor aéreo</h5>
+                            <p class="card-text flex-grow-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo odio provident dolore? Quia libero veniam molestiae! Harum voluptatum voluptatem aliquid corrupti amet ex. Ullam dolore exercitationem eaque recusandae nesciunt repudiandae?</p>
+                            <a href="#" class="btn btn-primary mt-2">Botón</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-5">
+
+        </section>
+        <!-- FORMULARIO -->
+        <section class="formulario">
+            <h2 class="fw-bold text-center mb-4">Contactanos </h2>
+
+            <div class="row justify-content-center ">
+                <div class="col-lg-8 ">
+                    <form class="bg-white p-4 mb-5 rounded-4 shadow-sm">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label class="form-label">Nombre(s) *</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Apellido(s) *</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Email *</label>
+                                <input type="email" class="form-control" required>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Mensaje *</label>
+                                <textarea class="form-control" rows="4" required></textarea>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button class="btn btn-warning px-5">Enviar mensaje</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <!-- SECCION FOOTE -->
+    <footer class="pie bg-secondary text-dark py-4">
+    <div class="container">
+        <div class="row text-center text-md-start">
+            <div class="col-md-4 mb-3 mb-md-0"><strong>Contacto:</strong><br>+57 123 456 789</div>
+            <div class="col-md-4 mb-3 mb-md-0"><strong>Dirección:</strong><br>Calle Falsa 123, Bogotá</div>
+            <div class="col-md-4"><strong>&copy; 2025 Nombre</strong></div>
+        </div>
+    </div>
+</footer>
+    <script src="./libs/bootstrap-5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
